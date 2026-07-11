@@ -18,11 +18,6 @@ public class factorial
   } return f;
   }
   public static void main(String[] args) {
-    int a=3;
-    int b=5;
-    int prod = multi(a,b);
-    System.out.println("a*b ="+prod);
-   int abc= multi(10, 10);
-   System.out.println("a*b=" +prod);
+   System.out.println(factorial(7));
   }
 }
